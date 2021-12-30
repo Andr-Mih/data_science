@@ -1,0 +1,15 @@
+{% block content%}
+<form method="post" enctype="multipart/form-data" action="predictImage">
+  
+ {% csrf_token %}
+ Upload Image File Here: <input name="filePath" type="file"><br><br>
+ <br>
+ 
+ <input type="submit" value="Submit" ></div>
+
+ <h2>The classification of the image is {{pred_label}}</h2>
+ <img src={{filePathName}} alt='imagename'>
+
+</form>
+
+{% endblock %}
