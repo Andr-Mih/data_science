@@ -10,13 +10,14 @@
     Hello
     <form method="post" enctype="multipart/form-data" action = 'result'>
         {% csrf_token %}
-        Upload Image File Here: <input name="filePath" type="file"><br>
+        {{ form.as_p }}
         <button type="submit">Upload</button>
       </form>
       
-      
-      <h2>The classification of the image is {{pred_label}}</h2>
-      <img src={{filePathName}} alt='imagename'>
+      {% if img_obj %}
+      <h2>The classification of the image is {{result}}</h2>
+      <img src={{img_obj}}>
+      {% endif %}
       
 
     
