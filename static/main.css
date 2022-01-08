@@ -1,0 +1,40 @@
+header {
+  background-color: lightgray;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin-left: 10px;
+}
+
+header a {
+  color: blue;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+ul li {
+  font-size: 20px;
+}
+
+.text {
+  font-size: 30px;
+}
+
+.button {
+  font-size: 40px;
+  margin-left: 300px;
+  color: red;
+  margin-top: 20px;
+}
+
+.pred {
+  font-size: 50px;
+  font-weight: 700;
+  align-items: center;
+}

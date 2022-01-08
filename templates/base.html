@@ -1,8 +1,13 @@
+{% load static %}
 <html>
-  <head>
-    <a href="/">Main page</a>
-  </head>
+  <link rel="stylesheet" href="{% static 'main.css' %}" />
   <body>
-    {% block content %} {% endblock %}
+    <header class="header">
+      <a href="/">
+        <img src="{% static 'home.png' %}" height="35px" , width="35px"
+      /></a>
+      <a href="/">Main page</a>
+    </header>
+    <main>{% block content %} {% endblock %}</main>
   </body>
 </html>
