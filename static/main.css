@@ -18,7 +18,7 @@ main {
 
 headers {
   color: rgb(164, 219, 233);
-  font-size: 35px;
+  font-size: 3px;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ li {
 .text {
   font-size: 30px;
   text-align: left;
-  color:teal;
+  color:rgb(34, 197, 97);
 }
 
 .text1 {
@@ -42,33 +42,67 @@ li {
 }
 
 .text2 {
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 30px;
   text-align: left;
-  color:rgb(25, 23, 122);
+  color:rgb(60, 37, 165);
 }
 
-.button {
-  border-radius: 10px;
-  background-color: linear-gradient(top, rgba(51, 226, 28, 0), rgba(67, 145, 165, 0.2));
-  font-size: 40px;
-  margin-left: auto;
-  margin-right:auto;
-  color: rgb(153, 18, 41);
-  margin-top: 20px;
+.text3 {
+  padding-top: 50px;
+  font-size: 30px;
+  padding-left: 100px;
+  color:rgb(36, 96, 107);
 }
-.button:hover {
-  background-color: springgreen;
+.tex3 {
+  padding-top: 150px;
+  font-size: 30px;
+  text-align: center;
+  color:rgb(133, 21, 185);
 }
 
 .pred {
   font-size: 50px;
-  font-weight: 700;
-  align-items: center;
+  font-weight: 100;
+  color:rgb(85, 7, 13);
 }
+
+.button {
+  border-radius: 10px;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: 50px;
+  
+  color: rgb(153, 18, 41);
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: springgreen;
+}
+
+.button1 {
+  border-radius: 10px;
+  font-size: 30px;
+  margin-left:1270px;
+  
+  color: rgb(27, 4, 8);
+  margin-top: 20px;
+}
+.button1:hover {
+  background-color: springgreen;
+}
+
 .headers {
-  padding-top: 10px;
+  padding-top: 30px;
   font-size: 35px;
   text-shadow: 2px 2px red;
+  color:rgb(23, 20, 78);
+}
+
+.headers1 {
+  padding-top: 50px;
+  font-size: 35px;
+  text-shadow: 2px 2px rgb(17, 211, 17);
   color:rgb(23, 20, 78);
 }

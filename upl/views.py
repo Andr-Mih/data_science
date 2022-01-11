@@ -41,3 +41,7 @@ def upload_doc(request):
             return render(request, 'result.html', locals())
             
     return render(request, 'upload_doc.html', locals())
+
+def about(request):
+    context = {'1':1}
+    return render(request, 'about.html', context)
