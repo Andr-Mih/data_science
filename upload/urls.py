@@ -19,5 +19,6 @@ from upl import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.upload_doc)
+    path('', views.upload_doc),
+    path('about/', views.about)
 ]

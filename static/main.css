@@ -1,40 +1,108 @@
+
 header {
-  background-color: lightgray;
-  padding-left: 10px;
+  background-color: rgb(127, 167, 219);
+  padding-left: 15px;
+  padding-bottom: 10px;
   padding-top: 10px;
 }
 
 body {
-  margin: 0;
+  margin: 0px;
+  background-color: rgb(118, 136, 101);
 }
 
 main {
   margin-left: 10px;
+  text-align: center;
 }
 
-header a {
-  color: blue;
-  font-size: 35px;
+headers {
+  color: rgb(164, 219, 233);
+  font-size: 3px;
   text-decoration: none;
 }
 
-ul li {
-  font-size: 20px;
+li {
+  font-size: 25px;
+  text-align: left;
+  color:saddlebrown;
 }
 
 .text {
   font-size: 30px;
+  text-align: left;
+  color:rgb(34, 197, 97);
 }
 
-.button {
-  font-size: 40px;
-  margin-left: 300px;
-  color: red;
-  margin-top: 20px;
+.text1 {
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: left;
+  color:rgb(36, 36, 15);
+}
+
+.text2 {
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: left;
+  color:rgb(60, 37, 165);
+}
+
+.text3 {
+  padding-top: 50px;
+  font-size: 30px;
+  padding-left: 100px;
+  color:rgb(36, 96, 107);
+}
+.tex3 {
+  padding-top: 150px;
+  font-size: 30px;
+  text-align: center;
+  color:rgb(133, 21, 185);
 }
 
 .pred {
   font-size: 50px;
-  font-weight: 700;
-  align-items: center;
+  font-weight: 100;
+  color:rgb(85, 7, 13);
+}
+
+.button {
+  border-radius: 10px;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: 50px;
+  
+  color: rgb(153, 18, 41);
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: springgreen;
+}
+
+.button1 {
+  border-radius: 10px;
+  font-size: 30px;
+  margin-left:1270px;
+  
+  color: rgb(27, 4, 8);
+  margin-top: 20px;
+}
+.button1:hover {
+  background-color: springgreen;
+}
+
+.headers {
+  padding-top: 30px;
+  font-size: 35px;
+  text-shadow: 2px 2px red;
+  color:rgb(23, 20, 78);
+}
+
+.headers1 {
+  padding-top: 50px;
+  font-size: 35px;
+  text-shadow: 2px 2px rgb(17, 211, 17);
+  color:rgb(23, 20, 78);
 }
