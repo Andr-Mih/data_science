@@ -1,17 +1,24 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 <body>
-<div class="headers1">
-    All models for prediction are learning on the CIFAR10 keras dataset</div>
-    <h2 class="text2">Average models accuracy:</h2>
-    <ul>
-    <li>First model accuracy - 86%</li>
-    <li>Second model accuracy - 88%</li>
-    <li>Third model accuracy - %</li>
-
-</ul>
-
-
-
+  <div class="headers1">
+    All models for prediction trained on the CIFAR10 keras dataset
+  </div>
+  <h2 class="text2">Average models accuracy:</h2>
+  <ul>
+    <li>First model (Simple CNN) accuracy - 86%</li>
+    <li>Second model (Pretrained NN) accuracy - 88%</li>
+  </ul>
+  <h2>How to use:</h2>
+  <h3>
+    This is a project with two neural networks to classify your image. To use
+    it:
+  </h3>
+  <ul class="faq">
+    <li>1. Choose one of the trained neural networks.</li>
+    <li>2. Upload your image.</li>
+    <li>3. Press "Classificate" button.</li>
+  </ul>
+  <p>Enjoy!</p>
 </body>
 
 {% endblock %}

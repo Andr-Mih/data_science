@@ -3,11 +3,10 @@
   <link rel="stylesheet" href="{% static 'main.css' %}" />
   <body>
     <header class="header">
-      <a href="/">
-        <img src="{% static 'home.png' %}" height="35px" , width="35px"
-      /></a>
-      <a class="button1" href="about/" target="_blank"><span>HELP</span></a>
-  
+      <a class="button1" href="/">
+        <img src="{% static 'home.png' %}" height="30px" , width="30px" /> Home
+      </a>
+      <a class="button1" href="about/"><span>Help</span></a>
     </header>
     <main>{% block content %} {% endblock %}</main>
   </body>
