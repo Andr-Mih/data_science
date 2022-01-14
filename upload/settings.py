@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@02bzomo@06-mum8q%yoa8yd55o+1ly!0nacm9k-5k6%0!i7ti'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['dsgoitproject1.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['dsgoitproject1.herokuapp.com', '127.0.0.1', '0.0.0.0', 'localhost']
 
 
 # Application definition
@@ -136,8 +136,10 @@ STATICFILES_DIRS = (
 )
 
 #  Add configuration for static files storage using whitenoise
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 
 prod_db  =  dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
+
+WHITENOISE_AUTOREFRESH = True
